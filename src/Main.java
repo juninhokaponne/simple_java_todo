@@ -33,7 +33,6 @@ class TodoList {
                         tasks.add(task);
                         System.out.println("Tarefa adicionada com sucesso!");
                     }
-                    break;
                 }
                 case 2 -> {
                     System.out.print("Digite o número da tarefa concluída: ");
@@ -73,8 +72,6 @@ class TodoList {
                     if(!hasPendingTasks) {
                         System.out.println("Nenhuma tarefa pendente.");
                     }
-
-                    break;
                 }
                 case 5 -> exit = true;
                 default -> System.out.println("Opção inválida!");

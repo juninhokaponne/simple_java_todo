@@ -24,12 +24,4 @@ public class Task {
     public void setCompleted(boolean completed) {
         this.completed = completed;
     }
-
-    public boolean isPending() {
-        return pending;
-    }
-
-    public void setPending(boolean pending) {
-        this.pending = pending;
-    }
 }
